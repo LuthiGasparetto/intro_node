@@ -1,10 +1,10 @@
 const mysql = require('mysql2/promise'); 
 
-const bd_usuario = 'root'; // usuário
-const bd_senha = ''; // senha
-const bd_servidor = '127.'; // servidor
+const bd_usuario = 'ewerton_node'; // usuário
+const bd_senha = '123456'; // senha
+const bd_servidor = '10.67.22.216'; // servidor
 const bd_porta = '3306'; // porta
-const bd_banco = 'bd_aula_node'; // nome do banco
+const bd_banco = 'ewerton_node'; // nome do banco
 let connection;
     
 const config = {
