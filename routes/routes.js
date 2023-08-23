@@ -1,4 +1,4 @@
-const db = requeire("../database/connection");
+//const db = requeire("../database/connection");
 const express = require('express');
 const router = express.Router();
 
@@ -30,7 +30,7 @@ router.get('/enderecoClientes', EnderecoClienteController.listarEnderecoCliente)
 // excluir
 
 router.get('/mesas', MesasController.listarMesas);
-// cadastrar
+router.post('/mesas', MesasController.createMesas);
 // editar
 // excluir
 
