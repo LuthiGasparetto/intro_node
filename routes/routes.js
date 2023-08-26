@@ -46,8 +46,11 @@ router.get('/pedidos', PedidosController.listarPedidos);
 
 router.get('/produtos', ProdutosController.listarProdutos);
 // cadastrar
+router.post('/produtos',ProdutosController.cadastrarProdutos);
 // editar
+router.patch('/produtos/:prd_id',ProdutosController.editarProdutos);
 // excluir
+router.delete('/produtos/:prd_id', ProdutosController.apagarProdutos);
 
 router.get('/produtoTipo', ProdutosTipoController.listarProdutoTipo);
 // cadastrar
